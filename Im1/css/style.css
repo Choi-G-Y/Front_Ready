@@ -38,46 +38,112 @@ header{
 	width:1200px;
 }
 
+/* logo 속성 */
 .logo{
 	float:left;
 	width:250px;
 	height:100px;
 }
 
+.logo_GYSports{
+	width: 200px;
+	height: 40px;
+	font-size: 32px;
+	font-family: 'REM', sans-serif;
+	color: white;
+}
+.logo_GYSports:hover{
+	color: lightgray
+}
+
+/* 메뉴 속성 */
 .menu{
 	float:right;
 	width:800px;
 	height:100px;
+	z-index: 1;
 }
 
+.navi{
+	float:right;
+	margin-top:50px;
+	margin-right:0px;
+}
+
+.navi>li{
+	float:left;
+}
+
+.navi>li>a{
+	width:200px;
+	height:50px;
+	line-height:50px; 
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	background-color:#3763c9;
+	color:#ffffff; 
+}
+
+.navi>li>a:hover{
+	background-color:#182b59;
+	color: lightgray;
+}
+
+/* 메뉴 - 서브메뉴 속성 */
+
+.submenu{
+	width:200px;
+	height:160px;
+	position:absolute;
+	display:none; /*잘 되는중인지 확인해볼려면 display를 지워보면 확인가능*/
+	z-index:3;
+	background-color:#3763c9;
+}
+
+.submenu>li>a{
+	width:200px;
+	height:40px;
+	line-height:40px;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	background-color:#3763c9;
+	color:#333333;
+}
+
+.submenu>li>a:hover{ 
+	background-color:#182b59;
+	color: lightgray;
+}
 
 /* 세션(콘텐츠) CSS 시작 */
 
 .contents{
 	width:1200px;
 	height:200px;
-	background-color: #329e3f;
+	/* background-color: #329e3f; */
 }
 
 .notice{
 	float:left;
 	width: calc(100% /3);
 	height:200px;
-	background-color: aquamarine;
+	/* background-color: aquamarine; */
 }
 
 .gallery{
 	float:left;
 	width:calc(100% /3);
 	height:200px;
-	background-color: red;
+	/* background-color: red; */
 }
 
 .shortcut{
 	float:right;
 	width:calc(100% /3);
 	height:200px;
-	background-color: lightcoral;
+	/* background-color: lightcoral; */
 }
 
 
@@ -99,4 +165,28 @@ footer{
 	width:100%;
 	height:100px;
 	background-color:#690000;
+}
+
+.copy{
+	float:left;
+	width:550px;
+	height:100px;
+    text-align:center;
+    font-size:20px;
+    line-height:100px;
+	background-color: aqua;
+}
+
+.site{
+	float:right;
+	width:400px;
+	height:100px;
+	background-color: rgb(49, 60, 70);
+}	
+
+.sns{
+	float:right;
+	width:400px;
+	height:50px;
+	background-color: aliceblue;
 }
