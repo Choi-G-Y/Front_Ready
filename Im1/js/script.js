@@ -7,5 +7,15 @@ jQuery(document).ready(function(){
       $('.submenu').stop().slideUp(500);
       $("#menu_bg").stop().slideUp(500);
     });
+    // 메인 포토 슬라이드 효과
+    $('.imgslide a:gt(0)').hide();
+    setInterval(function(){
+      $('.imgslide a:first-child')
+      .fadeOut()
+      .next('a')
+      .fadeIn()
+      .end()
+      .appendTo('.imgslide');
+    },3000); 
 
 });

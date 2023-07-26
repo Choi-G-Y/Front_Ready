@@ -26,6 +26,10 @@ a{
 	display:block;
 }
 
+.href_option{
+	text-decoration: none;
+}
+
 /* 헤더 부분 css 시작 */
 
 header{           
@@ -126,6 +130,31 @@ header{
 .submenu>li>a:hover{ 
 	background-color:#182b59;
 	color: lightgray;
+}
+
+/* 이미지 슬라이드 속성 */
+
+.imgslide{
+	width:1200px;
+	height:300px;
+   	position:relative;
+   	overflow:hidden;
+}
+
+.imgslide>a{
+    display:block; 
+    position:absolute;
+}
+
+.imgslide span{
+    width:300px;
+    text-align:center;
+    color:#ffffff;
+    font-weight:bold;
+    left:40%;
+    top:40%;
+    position:absolute;
+    background-color:rgba(100,100,100,0.7);
 }
 
 /* 세션(콘텐츠) CSS 시작 */
