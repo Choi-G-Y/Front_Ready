@@ -68,7 +68,7 @@ header{
 	width:1200px;
 	height:160px;
 	position:absolute;
-	/* display:none; */
+	display:none;
 	z-index:2;
 	top:100px;
 	background-color:#3763c9;
@@ -107,7 +107,7 @@ header{
 	width:200px;
 	height:160px;
 	position:absolute;
-	display:none; /*잘 되는중인지 확인해볼려면 display를 지워보면 확인가능*/
+	display:none;
 	z-index:3;
 	background-color:#3763c9;
 }
