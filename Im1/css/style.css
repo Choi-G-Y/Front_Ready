@@ -162,22 +162,96 @@ header{
 .contents{
 	width:1200px;
 	height:200px;
-	/* background-color: #329e3f; */
 }
-
+/* 공지사항 텝 속성 */
 .notice{
 	float:left;
 	width: calc(100% /3);
 	height:200px;
-	/* background-color: aquamarine; */
 }
 
+.tab{
+	float:left;
+	width:400px;
+}
+
+.notice h4{
+	float:left;
+	height:50px;
+	line-height:50px;
+}
+
+.notice>div{
+	float:left;
+	width:380px;
+	margin-left: 10px;	
+}
+
+.notice ul{ 
+	float:left;	
+	width:400px;
+}
+
+.notice li{  
+	height:32px;
+	line-height:32px;
+	font-size:15px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.notice li span{  
+	float:none;
+	border-left: black 2px solid;
+	margin-right: 8px;
+	
+}
+
+.notice li:nth-child(2n){ 
+	background-color:#ffffff;
+}
+
+.notice li:hover{  
+	font-weight:bold;
+}
+/* 공지사항 속성 종료 */
+
+/* 갤러리 속성 시작 */
 .gallery{
 	float:left;
 	width:calc(100% /3);
 	height:200px;
 	/* background-color: red; */
 }
+
+.gallery h4{
+	float:left;
+	height:50px;
+	line-height:50px;
+}
+
+.gallery>div{
+	width:380px;
+	margin-left:10px;
+}
+
+.gallery ul li{
+    float:left;
+	margin-left:10px;
+    margin-top:10px;
+}
+
+.gallery img{
+    width:100px;
+    height:100px;    
+	padding:10px;
+}
+
+.gallery li:hover{
+    opacity:0.5;
+}
+
+/* 갤러리 속성 종료 */
 
 .shortcut{
 	float:right;
