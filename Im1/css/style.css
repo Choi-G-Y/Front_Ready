@@ -35,7 +35,8 @@ a{
 header{           
     width:100%;
 	height:100px; 
-    background:#3763c9;
+    background:#002063;
+	/* #3763c9 */
 }
 
 .wrap{
@@ -75,7 +76,7 @@ header{
 	display:none;
 	z-index:2;
 	top:100px;
-	background-color:#3763c9;
+	background-color:#002063;
 
 }
 
@@ -96,7 +97,7 @@ header{
 	font-size:18px;
 	font-weight:bold;
 	text-align:center;
-	background-color:#3763c9;
+	background-color:#002063;
 	color:#ffffff; 
 }
 
@@ -113,7 +114,7 @@ header{
 	position:absolute;
 	display:none;
 	z-index:3;
-	background-color:#3763c9;
+	background-color:#002063;
 }
 
 .submenu>li>a{
@@ -123,13 +124,13 @@ header{
 	font-size:16px;
 	font-weight:bold;
 	text-align:center;
-	background-color:#3763c9;
-	color:#333333;
+	background-color:#002063;
+	color:#aaaaaa;
 }
 
 .submenu>li>a:hover{ 
 	background-color:#182b59;
-	color: lightgray;
+	color: white;
 }
 
 /* 이미지 슬라이드 속성 */
@@ -352,12 +353,45 @@ footer{
 	float:right;
 	width:400px;
 	height:100px;
-	background-color: rgb(49, 60, 70);
 }	
-
+/* sns 속성 */
 .sns{
 	float:right;
 	width:400px;
 	height:50px;
-	background-color: aliceblue;
+}
+
+.sns ul{ 
+	float:right;       
+	margin-right:20px;
+	margin-top:10px;
+}
+
+.sns li{        
+    display:inline-block;
+}
+
+.sns img{      
+	height:40px;
+	width:40x;
+	padding:10px;
+}
+
+.sns img:hover{
+	opacity:0.5;
+}
+
+/* familysite 속성 */
+.familysite{
+	width:400px;
+	height:50px;
+}
+
+.familysite select{
+	float:right;
+	height:20px;
+	width:200px;
+	margin-right:20px;
+	margin-top:15px;
+	font-size:14px;
 }
