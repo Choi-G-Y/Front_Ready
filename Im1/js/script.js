@@ -7,6 +7,7 @@ jQuery(document).ready(function(){
       $('.submenu').stop().slideUp(500);
       $("#menu_bg").stop().slideUp(500);
     });
+
     // 메인 포토 슬라이드 효과
     $('.imgslide a:gt(0)').hide();
     setInterval(function(){
@@ -17,5 +18,15 @@ jQuery(document).ready(function(){
       .end()
       .appendTo('.imgslide');
     },3000); 
+
+// 모달 팝업 효과
+    $(".notice li:nth-child(3)").click(function(){
+      $("#modal").addClass("active");
+      });
+
+      $(".btn").click(function(){
+      $("#modal").removeClass("active");
+      });    
+    
 
 });
